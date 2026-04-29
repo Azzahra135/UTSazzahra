@@ -1,0 +1,115 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY */
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.6;
+}
+
+/* NAVBAR */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  background: pink;
+  color: white;
+  position: sticky;
+  top: 0;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #00ffd5;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-content {
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+.desc {
+  margin: 15px 0;
+}
+
+/* BUTTON */
+.btn {
+  background: #00ffd5;
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  color: black;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: pink;
+}
+
+/* SECTION */
+section {
+  padding: 60px 50px;
+  text-align: center;
+}
+
+/* BACKGROUND LIGHT */
+.bg-light {
+  background: #f5f5f5;
+}
+
+/* BIODATA */
+.biodata-box {
+  max-width: 500px;
+  margin: auto;
+  text-align: left;
+  background: pink;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.biodata-box p {
+  margin: 10px 0;
+}
+
+/* ICON */
+.biodata-box i {
+  margin-right: 10px;
+  color: #00bfa6;
+}
+
+/* FOOTER */
+footer {
+  background: brown;
+  color: pink;
+  padding: 15px;
+  text-align: center;
+}
